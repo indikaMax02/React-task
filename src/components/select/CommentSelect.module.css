@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    margin: 0;
+   
+    
+}
+
+.main span{
+      margin-left: 10px;
+      margin-right: 10px;
+     color: rgb(255, 188, 4);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button{
+    border: none;
+    background-color:  rgb(71, 78, 78);
+   border-radius: 30px;
+   margin: 0;
+   padding: auto;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}

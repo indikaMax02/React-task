@@ -1,0 +1,17 @@
+.card {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  /* max-width: 400rem; */
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+.card:hover{
+  cursor: pointer;
+}
+

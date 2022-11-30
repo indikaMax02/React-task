@@ -1,0 +1,31 @@
+.main h4{
+     padding-left: 10px;
+     margin: 0;
+     color: rgb(247, 171, 9);
+}
+
+.main p{
+    padding-left: 10px;
+}
+
+.footer{
+    width: fit-content;
+    width: 100%;
+    background-color: rgb(247, 171, 9);
+    padding: 10px;
+    border-radius: inherit;
+
+}
+
+.main span{
+    color: white;
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.main{
+    width: 90%;
+  max-width: 55rem;
+}

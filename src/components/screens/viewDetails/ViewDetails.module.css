@@ -1,0 +1,49 @@
+.mainContainer{
+    /* background-color: rgb(86, 134, 175); */
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    /* justify-content: center; */
+    gap: 10px;
+   
+}
+.title{
+    color: rgb(247, 171, 9);
+}
+
+
+
+
+.stateBar{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 55rem;
+    background-color: rgb(247, 171, 9);
+    padding: 10px;
+    border-radius: inherit;
+    display: flex;
+    height: auto;
+
+}
+
+.mainContainer span{
+    color: white;
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 20px;
+   
+}
+.body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 55rem;
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}

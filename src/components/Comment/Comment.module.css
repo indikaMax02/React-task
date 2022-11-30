@@ -1,0 +1,42 @@
+.main{
+    /* background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 2px; */
+    width: 90%;
+    max-width: 55rem;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    
+    
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main img{
+    width: 35px;
+   
+ }
+
+ .main span{
+     color: black;
+     font-variant-caps: normal;
+
+ }
+
+ .commentSection{
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     padding: 0;
+     margin: 0;
+
+ }

@@ -1,0 +1,30 @@
+.textFieldContainer input{
+    width:100%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+
+
+}
+.errorLabel{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 30rem;
+    font-family: "Book Antiqua";
+
+}
+
+.textFieldContainer{
+    width: 90%;
+    max-width: 30rem;
+}
