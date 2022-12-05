@@ -16,3 +16,12 @@
   position: relative;
   left: 10%;
 }
+
+@media only screen and (max-width: 320px) {
+  .mainHeader h1 {
+    color: white;
+    position: relative;
+    
+    font-size: 20px;
+  }
+}

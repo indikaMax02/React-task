@@ -47,3 +47,28 @@
    
     
 }
+
+.commentContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    max-width: 55rem;
+
+}
+
+.commentContainer div{
+     padding: 10px;
+   color:  rgb(247, 171, 9);
+    
+    margin: 0;
+    font-size: 20px;
+}
+
+.commentContainer div h1{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}

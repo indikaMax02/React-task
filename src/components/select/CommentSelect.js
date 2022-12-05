@@ -9,12 +9,26 @@ function Select() {
   const pageNumber = useSelector((state) => state.com.pageNumber);
   const pageLimit = useSelector((state)=> state.com.pageLimit);
   const dispatch = useDispatch();
-  const [nextIsDisable, setNextDisable] = useState(false);
+  const [nextIsDisable, setNextDisable] = useState(true);
   const [prevIsDisable, setPrevDisable] = useState(false);
   
  
 
   useEffect(() => {
+
+  // if(pageLimit===1 && pageNumber===1){
+  //   setPrevDisable(true);
+  //   setNextDisable(false);
+  // }else{
+  //     if(pageLimit>1 && pageNumber===1){
+  //       setPrevDisable(true);
+  //       setNextDisable(false);
+  //     }else{
+  //       setPrevDisable(false);
+  //       setNextDisable(false);
+  //     }
+  // }
+
     if (pageLimit === pageNumber) {
       setNextDisable(true);
       setPrevDisable(false);
@@ -26,7 +40,7 @@ function Select() {
       setPrevDisable(true);
       setNextDisable(false);
     }
-
+  
   }, [pageNumber]);
 
  
@@ -34,9 +48,10 @@ function Select() {
  
 
   const nextButtonHandler = () => {
-
-   dispatch(commentActions.incrementPageNumber());
-   dispatch(commentActions.incrementLimitation())
+    dispatch(commentActions.incrementPageNumber());
+    dispatch(commentActions.incrementLimitation())
+   
+   
   };
 
   const prevButtonOnHandler = () => {
